@@ -101,6 +101,7 @@
 		042E7C301F2881EA0037D5BF /* ZoeCachePlayer */ = {
 			isa = PBXGroup;
 			children = (
+				042E7C641F2882400037D5BF /* ZoePlayer */,
 				042E7C341F2881EA0037D5BF /* AppDelegate.h */,
 				042E7C351F2881EB0037D5BF /* AppDelegate.m */,
 				042E7C371F2881EB0037D5BF /* ViewController.h */,
@@ -138,6 +139,13 @@
 				042E7C581F2881EC0037D5BF /* Info.plist */,
 			);
 			path = ZoeCachePlayerUITests;
+			sourceTree = "<group>";
+		};
+		042E7C641F2882400037D5BF /* ZoePlayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ZoePlayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
