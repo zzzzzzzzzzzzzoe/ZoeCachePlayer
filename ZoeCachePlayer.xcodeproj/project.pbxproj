@@ -15,6 +15,19 @@
 		042E7C411F2881EC0037D5BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042E7C3F1F2881EC0037D5BF /* LaunchScreen.storyboard */; };
 		042E7C4C1F2881EC0037D5BF /* ZoeCachePlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 042E7C4B1F2881EC0037D5BF /* ZoeCachePlayerTests.m */; };
 		042E7C571F2881EC0037D5BF /* ZoeCachePlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 042E7C561F2881EC0037D5BF /* ZoeCachePlayerUITests.m */; };
+		043C80651F30512200654146 /* ZoePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 043C80641F30512200654146 /* ZoePlayer.m */; };
+		04CCDA3A1F32D1DE008AECDC /* icon_pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CCDA321F32D1DE008AECDC /* icon_pause@2x.png */; };
+		04CCDA3B1F32D1DE008AECDC /* icon_pause@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CCDA331F32D1DE008AECDC /* icon_pause@3x.png */; };
+		04CCDA3C1F32D1DE008AECDC /* icon_play_hl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CCDA341F32D1DE008AECDC /* icon_play_hl@2x.png */; };
+		04CCDA3D1F32D1DE008AECDC /* icon_play_hl@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CCDA351F32D1DE008AECDC /* icon_play_hl@3x.png */; };
+		04CCDA3E1F32D1DE008AECDC /* icon_play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CCDA361F32D1DE008AECDC /* icon_play@2x.png */; };
+		04CCDA3F1F32D1DE008AECDC /* icon_play@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CCDA371F32D1DE008AECDC /* icon_play@3x.png */; };
+		04CCDA401F32D1DE008AECDC /* quanping@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CCDA381F32D1DE008AECDC /* quanping@2x.png */; };
+		04CCDA411F32D1DE008AECDC /* quanping@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CCDA391F32D1DE008AECDC /* quanping@3x.png */; };
+		04CCDA441F32D5B0008AECDC /* ZoeloaderURLSesstion.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CCDA431F32D5B0008AECDC /* ZoeloaderURLSesstion.m */; };
+		04CCDA471F32D5D7008AECDC /* ZoeViderRequestTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CCDA461F32D5D7008AECDC /* ZoeViderRequestTask.m */; };
+		04CCDA4D1F32DA20008AECDC /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CCDA4A1F32DA20008AECDC /* MBProgressHUD.m */; };
+		04CCDA4E1F32DA20008AECDC /* XCHudHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CCDA4C1F32DA20008AECDC /* XCHudHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +64,24 @@
 		042E7C521F2881EC0037D5BF /* ZoeCachePlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZoeCachePlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		042E7C561F2881EC0037D5BF /* ZoeCachePlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZoeCachePlayerUITests.m; sourceTree = "<group>"; };
 		042E7C581F2881EC0037D5BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043C80631F30512200654146 /* ZoePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoePlayer.h; sourceTree = "<group>"; };
+		043C80641F30512200654146 /* ZoePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoePlayer.m; sourceTree = "<group>"; };
+		04CCDA321F32D1DE008AECDC /* icon_pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_pause@2x.png"; sourceTree = "<group>"; };
+		04CCDA331F32D1DE008AECDC /* icon_pause@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_pause@3x.png"; sourceTree = "<group>"; };
+		04CCDA341F32D1DE008AECDC /* icon_play_hl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_play_hl@2x.png"; sourceTree = "<group>"; };
+		04CCDA351F32D1DE008AECDC /* icon_play_hl@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_play_hl@3x.png"; sourceTree = "<group>"; };
+		04CCDA361F32D1DE008AECDC /* icon_play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_play@2x.png"; sourceTree = "<group>"; };
+		04CCDA371F32D1DE008AECDC /* icon_play@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_play@3x.png"; sourceTree = "<group>"; };
+		04CCDA381F32D1DE008AECDC /* quanping@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quanping@2x.png"; sourceTree = "<group>"; };
+		04CCDA391F32D1DE008AECDC /* quanping@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quanping@3x.png"; sourceTree = "<group>"; };
+		04CCDA421F32D5B0008AECDC /* ZoeloaderURLSesstion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZoeloaderURLSesstion.h; path = resource/ZoeloaderURLSesstion.h; sourceTree = "<group>"; };
+		04CCDA431F32D5B0008AECDC /* ZoeloaderURLSesstion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZoeloaderURLSesstion.m; path = resource/ZoeloaderURLSesstion.m; sourceTree = "<group>"; };
+		04CCDA451F32D5D7008AECDC /* ZoeViderRequestTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoeViderRequestTask.h; sourceTree = "<group>"; };
+		04CCDA461F32D5D7008AECDC /* ZoeViderRequestTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoeViderRequestTask.m; sourceTree = "<group>"; };
+		04CCDA491F32DA20008AECDC /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		04CCDA4A1F32DA20008AECDC /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		04CCDA4B1F32DA20008AECDC /* XCHudHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCHudHelper.h; sourceTree = "<group>"; };
+		04CCDA4C1F32DA20008AECDC /* XCHudHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCHudHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,8 +175,42 @@
 		042E7C641F2882400037D5BF /* ZoePlayer */ = {
 			isa = PBXGroup;
 			children = (
+				04CCDA481F32DA20008AECDC /* XCToast */,
+				04CCDA451F32D5D7008AECDC /* ZoeViderRequestTask.h */,
+				04CCDA461F32D5D7008AECDC /* ZoeViderRequestTask.m */,
+				04CCDA421F32D5B0008AECDC /* ZoeloaderURLSesstion.h */,
+				04CCDA431F32D5B0008AECDC /* ZoeloaderURLSesstion.m */,
+				043C80631F30512200654146 /* ZoePlayer.h */,
+				043C80641F30512200654146 /* ZoePlayer.m */,
+				04CCDA311F32D1BD008AECDC /* resource */,
 			);
 			path = ZoePlayer;
+			sourceTree = "<group>";
+		};
+		04CCDA311F32D1BD008AECDC /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				04CCDA321F32D1DE008AECDC /* icon_pause@2x.png */,
+				04CCDA331F32D1DE008AECDC /* icon_pause@3x.png */,
+				04CCDA341F32D1DE008AECDC /* icon_play_hl@2x.png */,
+				04CCDA351F32D1DE008AECDC /* icon_play_hl@3x.png */,
+				04CCDA361F32D1DE008AECDC /* icon_play@2x.png */,
+				04CCDA371F32D1DE008AECDC /* icon_play@3x.png */,
+				04CCDA381F32D1DE008AECDC /* quanping@2x.png */,
+				04CCDA391F32D1DE008AECDC /* quanping@3x.png */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		04CCDA481F32DA20008AECDC /* XCToast */ = {
+			isa = PBXGroup;
+			children = (
+				04CCDA491F32DA20008AECDC /* MBProgressHUD.h */,
+				04CCDA4A1F32DA20008AECDC /* MBProgressHUD.m */,
+				04CCDA4B1F32DA20008AECDC /* XCHudHelper.h */,
+				04CCDA4C1F32DA20008AECDC /* XCHudHelper.m */,
+			);
+			path = XCToast;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,9 +319,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CCDA3A1F32D1DE008AECDC /* icon_pause@2x.png in Resources */,
+				04CCDA411F32D1DE008AECDC /* quanping@3x.png in Resources */,
 				042E7C411F2881EC0037D5BF /* LaunchScreen.storyboard in Resources */,
 				042E7C3E1F2881EC0037D5BF /* Assets.xcassets in Resources */,
+				04CCDA401F32D1DE008AECDC /* quanping@2x.png in Resources */,
+				04CCDA3E1F32D1DE008AECDC /* icon_play@2x.png in Resources */,
+				04CCDA3D1F32D1DE008AECDC /* icon_play_hl@3x.png in Resources */,
+				04CCDA3F1F32D1DE008AECDC /* icon_play@3x.png in Resources */,
+				04CCDA3B1F32D1DE008AECDC /* icon_pause@3x.png in Resources */,
 				042E7C3C1F2881EB0037D5BF /* Main.storyboard in Resources */,
+				04CCDA3C1F32D1DE008AECDC /* icon_play_hl@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +355,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				042E7C391F2881EB0037D5BF /* ViewController.m in Sources */,
+				043C80651F30512200654146 /* ZoePlayer.m in Sources */,
+				04CCDA471F32D5D7008AECDC /* ZoeViderRequestTask.m in Sources */,
+				04CCDA441F32D5B0008AECDC /* ZoeloaderURLSesstion.m in Sources */,
+				04CCDA4E1F32DA20008AECDC /* XCHudHelper.m in Sources */,
 				042E7C361F2881EB0037D5BF /* AppDelegate.m in Sources */,
 				042E7C331F2881EA0037D5BF /* main.m in Sources */,
+				04CCDA4D1F32DA20008AECDC /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +511,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZoeCachePlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zoe.ZoeCachePlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,6 +523,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZoeCachePlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zoe.ZoeCachePlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -515,6 +595,7 @@
 				042E7C5D1F2881EC0037D5BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		042E7C5E1F2881EC0037D5BF /* Build configuration list for PBXNativeTarget "ZoeCachePlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +604,7 @@
 				042E7C601F2881EC0037D5BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		042E7C611F2881EC0037D5BF /* Build configuration list for PBXNativeTarget "ZoeCachePlayerUITests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +613,7 @@
 				042E7C631F2881EC0037D5BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
